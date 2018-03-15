@@ -32,7 +32,7 @@ apis:
   tags: Contacts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/contacts/master/_listings/microsoft-graph/me-contactfolders-id-contacts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/contacts/master/_listings/microsoft-graph/users-id-|-userprincipalname-contactfolders-id-contacts-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
