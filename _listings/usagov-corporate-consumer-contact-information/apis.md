@@ -10,8 +10,8 @@ x-alexaRank: ""
 tags:
 - Stack Network
 - Federal Government   GSA
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/contacts/master/_listings/usagov-corporate-consumer-contact-information/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -24,7 +24,7 @@ apis:
   tags: Contacts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/contacts/master/_listings/usagov-corporate-consumer-contact-information/contacts-format-contacts-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/contacts/master/_listings/usagov-corporate-consumer-contact-information/contacts-format-contacts-get.md
 x-common:
 - type: x-terms-of-service
   url: https://www.usa.gov/developer-terms-of-service
