@@ -25,7 +25,7 @@ apis:
   tags: Contacts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-office-365/contactfolders-contact-folder-id-contacts-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-office-365/contacts-contact-id-get.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
