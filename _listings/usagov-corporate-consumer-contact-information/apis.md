@@ -24,7 +24,7 @@ apis:
   tags: Contacts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/usagov-corporate-consumer-contact-information/contacts-format-contacts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/usagov-corporate-consumer-contact-information/contacts-format-contacts-id-get.md
 x-common:
 - type: x-terms-of-service
   url: https://www.usa.gov/developer-terms-of-service
