@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-office-365/contacts-contact-id-attachments-parameters.md
-- name: Microsoft Office 365 Parameters Contacts Contact
-  description: Parameters contacts contact
+- name: Microsoft Office 365 Get Contacts Contact Attachments
+  description: To get attachments, send a GET request to the Attachments pr...
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
   humanURL: http://office.com
   baseURL: https://outlook.office365.com//ews/odata/Me
   tags: Contacts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-office-365/contacts-contact-id-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-office-365/contacts-contact-id-attachments-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-office-365/contacts-contact-id-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-office-365/contacts-contact-id-attachments-get-postman.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
