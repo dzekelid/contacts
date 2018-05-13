@@ -25,20 +25,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/usagov-corporate-consumer-contact-information/contacts-format-contacts-id-get.md
-- name: USA.Gov Corporate Consumer Contact API Get Contacts
-  description: Contacts is a general purpose call that, by default, will return all
-    of the corporate directory records. However, you can pass parameters into the
-    contacts call that allow you to filter the records returned by the API in powerful
-    ways.
+- name: USA.Gov Corporate Consumer Contact API Get Contact
+  description: The Contact call will let you access an individual corporation's information
+    by including its unique identifier in the call.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usa-gov-logo.png
   humanURL: https://github.com/usagov/Corporate-Consumer-Contact-API-Documentation
   baseURL: https://www.usa.gov/api/USAGovAPI/
   tags: Contacts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/usagov-corporate-consumer-contact-information/contacts-format-contacts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/usagov-corporate-consumer-contact-information/contacts-format-contacts-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/usagov-corporate-consumer-contact-information/contacts-format-contacts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/usagov-corporate-consumer-contact-information/contacts-format-contacts-id-get-postman.md
 x-common:
 - type: x-terms-of-service
   url: https://www.usa.gov/developer-terms-of-service
