@@ -1,11 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: USA.Gov Corporate Consumer Contact Information API
-  description: We make the Corporate Consumer Contact listing found in the Consumer
-    Action Handbook (PDF) available via a REST API. The API programmatically returns
-    all of the information contained in the directory, or you can query the API to
-    return just a subset of the available information.
+  title: USA.Gov Corporate Consumer Contact API Get Contacts
+  description: Contacts is a general purpose call that, by default, will return all
+    of the corporate directory records. However, you can pass parameters into the
+    contacts call that allow you to filter the records returned by the API in powerful
+    ways.
   termsOfService: https://github.com/usagov/Corporate-Consumer-Contact-API-Documentation#terms-of-service
   contact:
     name: USA.Gov Developers
