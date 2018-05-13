@@ -25,7 +25,25 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/usagov-corporate-consumer-contact-information/contacts-format-contacts-id-get.md
+- name: USA.Gov Corporate Consumer Contact API Get Contacts
+  description: Contacts is a general purpose call that, by default, will return all
+    of the corporate directory records. However, you can pass parameters into the
+    contacts call that allow you to filter the records returned by the API in powerful
+    ways.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usa-gov-logo.png
+  humanURL: https://github.com/usagov/Corporate-Consumer-Contact-API-Documentation
+  baseURL: https://www.usa.gov/api/USAGovAPI/
+  tags: Contacts
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/usagov-corporate-consumer-contact-information/contacts-format-contacts-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/usagov-corporate-consumer-contact-information/contacts-format-contacts-get-postman.md
 x-common:
+- type: x-terms-of-service
+  url: https://www.usa.gov/developer-terms-of-service
+- type: x-website
+  url: https://github.com/usagov/Corporate-Consumer-Contact-API-Documentation
 - type: x-terms-of-service
   url: https://www.usa.gov/developer-terms-of-service
 - type: x-website
