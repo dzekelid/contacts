@@ -35,14 +35,14 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-graph/users-id-|-userprincipalname-contactfolders-id-childfolders-id-contacts-get.md
 - name: Microsoft Graph API List Contacts
   description: List contacts Get a contact collection from the default Contacts folder
-    of the signed-in user (.../me/contacts), or from the specified contact folder.
+    of the signed-in user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Contacts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-graph/users-id-|-userprincipalname-contactfolders-id-contacts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-graph/me-contactfolder-id-childfolders-id-contacts-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
