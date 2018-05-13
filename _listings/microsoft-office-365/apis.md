@@ -26,17 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-office-365/contacts-contact-id-attachments-parameters.md
-- name: Microsoft Office 365 Delete Contacts Contact
-  description: You can delete a contact by simply sending a DELETE request ...
+- name: Microsoft Office 365 Patch Contacts Contact
+  description: To update a contact, send a PATCH request to the URL of the ...
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
   humanURL: http://office.com
   baseURL: https://outlook.office365.com//ews/odata/Me
   tags: Contacts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-office-365/contacts-contact-id-delete.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-office-365/contacts-contact-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-office-365/contacts-contact-id-patch.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
