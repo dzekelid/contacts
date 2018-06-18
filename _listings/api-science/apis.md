@@ -1,21 +1,104 @@
 ---
 name: API Science
+x-slug: api-science
 description: Traditional monitoring services were designed long before APIs became
   core to modern applications. API Science is designed specifically for monitoring
   APIs. Sure, we understand REST, JSON, OAuth, XML. No problem.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- My API Stack
-- Monitoring
-- API LIfeycle
-created: "2018-03-23"
-modified: "2018-03-23"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/apis.yaml
+x-alexaRank: "0"
+tags: Contacts
+created: "2018-06-18"
+modified: "2018-06-18"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: API Science Get All Contacts
+  x-api-slug: api-science
+  description: Get All Contacts
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
+  humanURL: http://apiscience.com
+  baseURL: https://///contacts.json
+  tags: Contacts
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/contacts-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/contacts-json-get-openapi.md
+- name: API Science Create a Contact
+  x-api-slug: api-science
+  description: Create a Contact
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
+  humanURL: http://apiscience.com
+  baseURL: https://///contacts.json
+  tags: Contacts
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/contacts-json-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/contacts-json-post-openapi.md
+- name: API Science Delete a Contact
+  x-api-slug: api-science
+  description: Delete a Contact
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
+  humanURL: http://apiscience.com
+  baseURL: https://///contacts/{id}.json
+  tags: Contacts
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/contactsid-json-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/contactsid-json-delete-openapi.md
+- name: API Science Get a Specific Contact
+  x-api-slug: api-science
+  description: Get a Specific Contact
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
+  humanURL: http://apiscience.com
+  baseURL: https://///contacts/{id}.json
+  tags: Contacts
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/contactsid-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/contactsid-json-get-openapi.md
+- name: API Science Update a Contact
+  x-api-slug: api-science
+  description: Update a Contact
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
+  humanURL: http://apiscience.com
+  baseURL: https://///contacts/{id}.json
+  tags: Contacts
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/contactsid-json-patch-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/contactsid-json-patch-openapi.md
+- name: API Science Get Contacts List
+  x-api-slug: api-science
+  description: Returns a list of all contacts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
+  humanURL: http://apiscience.com
+  baseURL: |-
+    https:////
+        /api/{version}/contacts
+  tags: Contacts
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/apiversioncontacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/apiversioncontacts-get-openapi.md
+- name: API Science
+  x-api-slug: api-science
+  description: Traditional monitoring services were designed long before APIs became
+    core to modern applications. API Science is designed specifically for monitoring
+    APIs. Sure, we understand REST, JSON, OAuth, XML. No problem.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
+  humanURL: http://apiscience.com
+  baseURL: https:///
+  tags: Contacts
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/openapi.md
 x-common:
 - type: x-base-url
   url: http://api.apiscience.com
@@ -34,23 +117,7 @@ x-common:
 - type: x-twitter
   url: https://twitter.com/APIScience
 - type: x-website
-  url: http://www.apiscience.com/
-- type: x-base-url
-  url: http://api.apiscience.com
-- type: x-blog
-  url: https://www.apiscience.com/blog/
-- type: x-blog-rss
-  url: https://www.apiscience.com/blog/feed/
-- type: x-developer
-  url: https://www.apiscience.com/docs/api
-- type: x-pricing
-  url: https://www.apiscience.com/pricing
-- type: x-privacy
-  url: https://www.apiscience.com/privacy
-- type: x-terms-of-service
-  url: https://www.apiscience.com/terms
-- type: x-twitter
-  url: https://twitter.com/APIScience
+  url: http://apiscience.com
 - type: x-website
   url: http://www.apiscience.com/
 include: []

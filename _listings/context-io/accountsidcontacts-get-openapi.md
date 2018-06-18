@@ -1,0 +1,65 @@
+---
+swagger: "2.0"
+x-collection-name: Context.IO
+x-complete: 0
+info:
+  title: Context.IO Get Accounts Contacts
+  description: Lists contacts in an account.
+  version: 1.0.0
+host: api.context.io
+basePath: /2.0/
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /accounts/{id}/contacts:
+    get:
+      summary: Get Accounts Contacts
+      description: Lists contacts in an account.
+      operationId: listAccountContacts_
+      x-api-path-slug: accountsidcontacts-get
+      parameters:
+      - in: query
+        name: active_after
+        description: Only include contacts included in at least one email dated after
+          a given time
+      - in: query
+        name: active_before
+        description: Only include contacts included in at least one email dated before
+          a given time
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: query
+        name: limit
+        description: The maximum number of results to return
+      - in: query
+        name: offset
+        description: Start the list at this offset (zero-based)
+      - in: query
+        name: search
+        description: String identifying the name or the email address of the contact(s)
+          you are looking for
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Contacts
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
