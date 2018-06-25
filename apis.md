@@ -4,7 +4,7 @@ description: This is a repository of contacts APIs, self-contained as a Github r
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/contacts.png
 created: "2018-02-24"
-modified: "2018-06-18"
+modified: "2018-06-25"
 url: http://contacts.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -18,10 +18,10 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/usa-gov-corporate-consumer-contact-information/apis.yaml
 - name: Microsoft Graph
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-graph/apis.yaml
-- name: Microsoft Office 365
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-office-365/apis.yaml
 - name: API Science
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/apis.yaml
+- name: Microsoft Office 365
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/microsoft-office-365/apis.yaml
 - name: Eventbrite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/apis.yaml
 - name: CallFire
