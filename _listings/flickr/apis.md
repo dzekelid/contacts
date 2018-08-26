@@ -11,114 +11,61 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Contacts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Flickr Contacts Get List
-  x-api-slug: flickr
+- name: Flickr - Contacts Get List
+  x-api-slug: restmethodflickr-contacts-getlist-get
   description: Get a list of contacts for the calling user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.contacts.getList
-  tags: Contacts,GetList
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-contacts-getlist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-contacts-getlist-get-openapi.md
-- name: Flickr Contacts Get List Recently Uploaded
-  x-api-slug: flickr
+- name: Flickr - Contacts Get List Recently Uploaded
+  x-api-slug: restmethodflickr-contacts-getlistrecentlyuploaded-get
   description: Return a list of contacts for a user who have recently uploaded photos
     along with the total count of photos uploaded. This method is still considered
     experimental. We don't plan for it to change or to go away but so long as this
     notice is present you should write your code accordingly.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.contacts.getListRecentlyUploaded
-  tags: Contacts,GetListRecentlyUploaded
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-contacts-getlistrecentlyuploaded-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-contacts-getlistrecentlyuploaded-get-openapi.md
-- name: Flickr Contacts Get Public List
-  x-api-slug: flickr
+- name: Flickr - Contacts Get Public List
+  x-api-slug: restmethodflickr-contacts-getpubliclist-get
   description: Get the contact list for a user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.contacts.getPublicList
-  tags: Contacts,GetPublicList
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-contacts-getpubliclist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-contacts-getpubliclist-get-openapi.md
-- name: Flickr Photos Get Contacts Photos
-  x-api-slug: flickr
-  description: Fetch a list of recent photos from the calling users' contacts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
-  humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.photos.getContactsPhotos
-  tags: Photos,GetContactsPhotos
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-photos-getcontactsphotos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-photos-getcontactsphotos-get-openapi.md
-- name: Flickr Photos Get Contacts Public Photos
-  x-api-slug: flickr
-  description: Fetch a list of recent public photos from a users' contacts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
-  humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.photos.getContactsPublicPhotos
-  tags: Photos,GetContactsPublicPhotos
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-photos-getcontactspublicphotos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-photos-getcontactspublicphotos-get-openapi.md
-- name: Flickr Photos Comments Get Recent For Contacts
-  x-api-slug: flickr
-  description: Return the list of photos belonging to your contacts that have been
-    commented on recently.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
-  humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.photos.comments.getRecentForContacts
-  tags: Photos,Comments,GetRecentForContacts
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-photos-comments-getrecentforcontacts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-photos-comments-getrecentforcontacts-get-openapi.md
-- name: Flickr Places Places For Contacts
-  x-api-slug: flickr
-  description: Return a list of the top 100 unique places clustered by a given placetype
-    for a user's contacts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
-  humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.places.placesForContacts
-  tags: Places,PlacesForContacts
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-places-placesforcontacts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/restmethodflickr-places-placesforcontacts-get-openapi.md
-- name: Flickr
-  x-api-slug: flickr
-  description: The Flickr API consists of a set of callable methods, and some API
-    endpoints.  To perform an action using the Flickr API, you need to select a calling
-    convention, send a request to its endpoint specifying a method and some arguments,
-    and will receive a formatted response.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
-  humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services/
-  tags: Contacts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/flickr/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://flat.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://flickr.stack.network
 - type: x-authentication
   url: https://www.flickr.com/services/api/auth.oauth.html
 - type: x-base

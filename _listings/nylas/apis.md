@@ -1,18 +1,16 @@
 ---
 name: Nylas
+x-slug: nylas
 description: Nylas makes it incredibly easy to interface with email, scheduling, and
-  contacts. Itrsquo;s the modern email messaging platform for enterprise apps.
+  contacts. It&rsquo;s the modern email messaging platform for enterprise apps.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
   Shot 2017-05-08 at 1.45.11 PM.png
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Email
-- Contacts
-- Calendaring
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/contacts/master/_listings/nylas/apis.yaml
+x-alexaRank: "0"
+tags: Contacts
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/nylas/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:

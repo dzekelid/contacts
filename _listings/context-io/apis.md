@@ -6,92 +6,164 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-contex
 x-kinRank: "9"
 x-alexaRank: "569975"
 tags: Contacts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Context.IO Get Accounts Contacts
-  x-api-slug: context-io
+- name: Context.IO - Get Accounts Contacts
+  x-api-slug: accountsidcontacts-get
   description: Lists contacts in an account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/contacts
-  tags: Accounts,Contacts
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontacts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontacts-get-openapi.md
-- name: Context.IO Get Accounts Contacts Email
-  x-api-slug: context-io
+- name: Context.IO - Get Accounts Contacts Email
+  x-api-slug: accountsidcontactsemail-get
   description: Gets information about a given contact.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/contacts/{email}
-  tags: Accounts,Contacts,Email
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemail-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemail-get-openapi.md
-- name: Context.IO Get Accounts Contacts Email Files
-  x-api-slug: context-io
+- name: Context.IO - Get Accounts Contacts Email Files
+  x-api-slug: accountsidcontactsemailfiles-get
   description: Lists files exchanged with a contact. Returns the latest attachments
     exchanged with one or more email addresses. By "exchanged with Mr. X" we mean
     any file attached to an email received from Mr. X, sent to Mr. X or sent by anyone
     to both Mr. X and the mailbox owner.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/contacts/{email}/files
-  tags: Accounts,Contacts,Email,Files
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemailfiles-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemailfiles-get-openapi.md
-- name: Context.IO Get Accounts Contacts Email Messages
-  x-api-slug: context-io
+- name: Context.IO - Get Accounts Contacts Email Messages
+  x-api-slug: accountsidcontactsemailmessages-get
   description: Lists messages where a contact is present. Returns the latest email
     messages exchanged with one or more email addresses. By "exchanged with Mr. X"
     we mean any email received from Mr. X, sent to Mr. X or sent by anyone to both
     Mr. X and the mailbox owner.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/contacts/{email}/messages
-  tags: Accounts,Contacts,Email,Messages
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemailmessages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemailmessages-get-openapi.md
-- name: Context.IO Get Accounts Contacts Email Threads
-  x-api-slug: context-io
+- name: Context.IO - Get Accounts Contacts Email Threads
+  x-api-slug: accountsidcontactsemailthreads-get
   description: Lists threads where a contact is present. Returns the latest email
     threads exchanged with one or more email addresses. By "exchanged with Mr. X"
     we mean any email received from Mr. X, sent to Mr. X or sent by anyone to both
     Mr. X and the mailbox owner.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/contacts/{email}/threads
-  tags: Accounts,Contacts,Email,Threads
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemailthreads-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemailthreads-get-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: Context.IO is the missing email API that makes it easy and fastto integrate
-    your users email data in your application.
+- name: Context.IO - Get Accounts Contacts
+  x-api-slug: accountsidcontacts-get
+  description: Lists contacts in an account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
   baseURL: https://api.context.io//2.0/
-  tags: Contacts
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontacts-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontacts-get-openapi.md
+- name: Context.IO - Get Accounts Contacts Email
+  x-api-slug: accountsidcontactsemail-get
+  description: Gets information about a given contact.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemail-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemail-get-openapi.md
+- name: Context.IO - Get Accounts Contacts Email Files
+  x-api-slug: accountsidcontactsemailfiles-get
+  description: Lists files exchanged with a contact. Returns the latest attachments
+    exchanged with one or more email addresses. By "exchanged with Mr. X" we mean
+    any file attached to an email received from Mr. X, sent to Mr. X or sent by anyone
+    to both Mr. X and the mailbox owner.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemailfiles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemailfiles-get-openapi.md
+- name: Context.IO - Get Accounts Contacts Email Messages
+  x-api-slug: accountsidcontactsemailmessages-get
+  description: Lists messages where a contact is present. Returns the latest email
+    messages exchanged with one or more email addresses. By "exchanged with Mr. X"
+    we mean any email received from Mr. X, sent to Mr. X or sent by anyone to both
+    Mr. X and the mailbox owner.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemailmessages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemailmessages-get-openapi.md
+- name: Context.IO - Get Accounts Contacts Email Threads
+  x-api-slug: accountsidcontactsemailthreads-get
+  description: Lists threads where a contact is present. Returns the latest email
+    threads exchanged with one or more email addresses. By "exchanged with Mr. X"
+    we mean any email received from Mr. X, sent to Mr. X or sent by anyone to both
+    Mr. X and the mailbox owner.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemailthreads-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/context-io/accountsidcontactsemailthreads-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://constant.contact.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://context.io.stack.network
 - type: x-base
   url: https://api.context.io/
 - type: x-blog
