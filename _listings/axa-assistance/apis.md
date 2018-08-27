@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-
 x-kinRank: "8"
 x-alexaRank: "2107685"
 tags: Contacts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/apis.md
 specificationVersion: "0.14"
 apis:
@@ -168,6 +168,84 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homewater-damagedeclarationsdeclaration-idcontacts-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homewater-damagedeclarationsdeclaration-idcontacts-post-openapi.md
+- name: AXA Assistance - Adds contact information of the water damage declaration
+  x-api-slug: assistancev1homewater-damagedeclarationsdeclaration-idcontacts-post
+  description: Adds contact information of the water damage declaration
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
+  humanURL: https://www.axa-assistance.com
+  baseURL: https://sandbox.api.axa-assistance.com//
+  tags: Technology, internet, Insurance, API Provider, Profiles, Relative Data, General
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homewater-damagedeclarationsdeclaration-idcontacts-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homewater-damagedeclarationsdeclaration-idcontacts-post-openapi.md
+- name: AXA Assistance - Adds contact information of the locksmithing damage declaration
+  x-api-slug: assistancev1homelocksmithing-damagedeclarationsdeclaration-idcontacts-post
+  description: Adds contact information of the locksmithing damage declaration
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
+  humanURL: https://www.axa-assistance.com
+  baseURL: https://sandbox.api.axa-assistance.com//
+  tags: Technology, internet, Insurance, API Provider, Profiles, Relative Data, General
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homelocksmithing-damagedeclarationsdeclaration-idcontacts-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homelocksmithing-damagedeclarationsdeclaration-idcontacts-post-openapi.md
+- name: AXA Assistance - Adds contact information of the home appliance damage declaration
+  x-api-slug: assistancev1homehome-appliance-damagedeclarationsdeclaration-idcontacts-post
+  description: Adds contact information of the home appliance damage declaration
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
+  humanURL: https://www.axa-assistance.com
+  baseURL: https://sandbox.api.axa-assistance.com//
+  tags: Technology, internet, Insurance, API Provider, Profiles, Relative Data, General
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homehome-appliance-damagedeclarationsdeclaration-idcontacts-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homehome-appliance-damagedeclarationsdeclaration-idcontacts-post-openapi.md
+- name: AXA Assistance - Adds contact information of the glaziery damage declaration
+  x-api-slug: assistancev1homeglaziery-damagedeclarationsdeclaration-idcontacts-post
+  description: Adds contact information of the glaziery damage declaration
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
+  humanURL: https://www.axa-assistance.com
+  baseURL: https://sandbox.api.axa-assistance.com//
+  tags: Technology, internet, Insurance, API Provider, Profiles, Relative Data, General
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homeglaziery-damagedeclarationsdeclaration-idcontacts-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homeglaziery-damagedeclarationsdeclaration-idcontacts-post-openapi.md
+- name: AXA Assistance - Adds contact information of the gas damage declaration
+  x-api-slug: assistancev1homegas-damagedeclarationsdeclaration-idcontacts-post
+  description: Adds contact information of the gas damage declaration
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
+  humanURL: https://www.axa-assistance.com
+  baseURL: https://sandbox.api.axa-assistance.com//
+  tags: Technology, internet, Insurance, API Provider, Profiles, Relative Data, General
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homegas-damagedeclarationsdeclaration-idcontacts-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homegas-damagedeclarationsdeclaration-idcontacts-post-openapi.md
+- name: AXA Assistance - Adds contact information of the electric damage declaration
+  x-api-slug: assistancev1homeelectric-damagedeclarationsdeclaration-idcontacts-post
+  description: Adds contact information of the electric damage declaration
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
+  humanURL: https://www.axa-assistance.com
+  baseURL: https://sandbox.api.axa-assistance.com//
+  tags: Technology, internet, Insurance, API Provider, Profiles, Relative Data, General
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homeelectric-damagedeclarationsdeclaration-idcontacts-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/axa-assistance/assistancev1homeelectric-damagedeclarationsdeclaration-idcontacts-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.xray.api.gallery.streamdata.io

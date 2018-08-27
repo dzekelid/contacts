@@ -7,11 +7,367 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventb
 x-kinRank: "9"
 x-alexaRank: "643"
 tags: Contacts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Eventbrite - Get Users Contact Lists Contact List Contacts
+  x-api-slug: usersidcontact-listscontact-list-idcontacts-get
+  description: |-
+    Returns the contacts on the contact list
+    as contacts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-idcontacts-get-openapi.md
+- name: Eventbrite - Post Users Contact Lists Contact List Contacts
+  x-api-slug: usersidcontact-listscontact-list-idcontacts-post
+  description: 'Adds a new contact to the contact list. Returns {&quot;created&quot;:
+    true}.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-idcontacts-post-openapi.md
+- name: Eventbrite - Delete Users Contact Lists Contact List Contacts
+  x-api-slug: usersidcontact-listscontact-list-idcontacts-delete
+  description: |-
+    Deletes the specified contact from the contact list.
+    Returns {&quot;deleted&quot;: true}.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-idcontacts-delete-openapi.md
+- name: Eventbrite - Get Users Contact Lists
+  x-api-slug: usersidcontact-lists-get
+  description: |-
+    Returns a list of contact_list that the user owns as the key
+    contact_lists.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-lists-get-openapi.md
+- name: Eventbrite - Post Users Contact Lists
+  x-api-slug: usersidcontact-lists-post
+  description: |-
+    Makes a new contact_list for the user and returns it as
+    contact_list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-lists-post-openapi.md
+- name: Eventbrite - Get Users Contact Lists Contact List
+  x-api-slug: usersidcontact-listscontact-list-id-get
+  description: Gets a user&#8217;s contact_list by ID as contact_list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-id-get-openapi.md
+- name: Eventbrite - Post Users Contact Lists Contact List
+  x-api-slug: usersidcontact-listscontact-list-id-post
+  description: Updates the contact_list and returns it as contact_list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-id-post-openapi.md
+- name: Eventbrite - Delete Users Contact Lists Contact List
+  x-api-slug: usersidcontact-listscontact-list-id-delete
+  description: 'Deletes the contact list. Returns {&quot;deleted&quot;: true}.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-id-delete-openapi.md
+- name: Eventbrite - Get Users Contact Lists Contact List Contacts
+  x-api-slug: usersidcontact-listscontact-list-idcontacts-get
+  description: |-
+    Returns the contacts on the contact list
+    as contacts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-idcontacts-get-openapi.md
+- name: Eventbrite - Post Users Contact Lists Contact List Contacts
+  x-api-slug: usersidcontact-listscontact-list-idcontacts-post
+  description: 'Adds a new contact to the contact list. Returns {&quot;created&quot;:
+    true}.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-idcontacts-post-openapi.md
+- name: Eventbrite - Delete Users Contact Lists Contact List Contacts
+  x-api-slug: usersidcontact-listscontact-list-idcontacts-delete
+  description: |-
+    Deletes the specified contact from the contact list.
+    Returns {&quot;deleted&quot;: true}.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-idcontacts-delete-openapi.md
+- name: Eventbrite - Get Users Contact Lists
+  x-api-slug: usersidcontact-lists-get
+  description: |-
+    Returns a list of contact_list that the user owns as the key
+    contact_lists.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-lists-get-openapi.md
+- name: Eventbrite - Post Users Contact Lists
+  x-api-slug: usersidcontact-lists-post
+  description: |-
+    Makes a new contact_list for the user and returns it as
+    contact_list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-lists-post-openapi.md
+- name: Eventbrite - Get Users Contact Lists Contact List
+  x-api-slug: usersidcontact-listscontact-list-id-get
+  description: Gets a user&#8217;s contact_list by ID as contact_list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-id-get-openapi.md
+- name: Eventbrite - Post Users Contact Lists Contact List
+  x-api-slug: usersidcontact-listscontact-list-id-post
+  description: Updates the contact_list and returns it as contact_list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-id-post-openapi.md
+- name: Eventbrite - Delete Users Contact Lists Contact List
+  x-api-slug: usersidcontact-listscontact-list-id-delete
+  description: 'Deletes the contact list. Returns {&quot;deleted&quot;: true}.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-id-delete-openapi.md
+- name: Eventbrite - Get Users Contact Lists Contact List Contacts
+  x-api-slug: usersidcontact-listscontact-list-idcontacts-get
+  description: |-
+    Returns the contacts on the contact list
+    as contacts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-idcontacts-get-openapi.md
+- name: Eventbrite - Post Users Contact Lists Contact List Contacts
+  x-api-slug: usersidcontact-listscontact-list-idcontacts-post
+  description: 'Adds a new contact to the contact list. Returns {&quot;created&quot;:
+    true}.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-idcontacts-post-openapi.md
+- name: Eventbrite - Delete Users Contact Lists Contact List Contacts
+  x-api-slug: usersidcontact-listscontact-list-idcontacts-delete
+  description: |-
+    Deletes the specified contact from the contact list.
+    Returns {&quot;deleted&quot;: true}.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-idcontacts-delete-openapi.md
+- name: Eventbrite - Delete Users Contact Lists Contact List Contacts
+  x-api-slug: usersidcontact-listscontact-list-idcontacts-delete
+  description: |-
+    Deletes the specified contact from the contact list.
+    Returns {&quot;deleted&quot;: true}.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-idcontacts-delete-openapi.md
+- name: Eventbrite - Post Users Contact Lists Contact List Contacts
+  x-api-slug: usersidcontact-listscontact-list-idcontacts-post
+  description: 'Adds a new contact to the contact list. Returns {&quot;created&quot;:
+    true}.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-idcontacts-post-openapi.md
+- name: Eventbrite - Get Users Contact Lists Contact List Contacts
+  x-api-slug: usersidcontact-listscontact-list-idcontacts-get
+  description: |-
+    Returns the contacts on the contact list
+    as contacts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-idcontacts-get-openapi.md
+- name: Eventbrite - Delete Users Contact Lists Contact List
+  x-api-slug: usersidcontact-listscontact-list-id-delete
+  description: 'Deletes the contact list. Returns {&quot;deleted&quot;: true}.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-id-delete-openapi.md
+- name: Eventbrite - Post Users Contact Lists Contact List
+  x-api-slug: usersidcontact-listscontact-list-id-post
+  description: Updates the contact_list and returns it as contact_list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-id-post-openapi.md
+- name: Eventbrite - Get Users Contact Lists Contact List
+  x-api-slug: usersidcontact-listscontact-list-id-get
+  description: Gets a user&#8217;s contact_list by ID as contact_list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-listscontact-list-id-get-openapi.md
+- name: Eventbrite - Post Users Contact Lists
+  x-api-slug: usersidcontact-lists-post
+  description: |-
+    Makes a new contact_list for the user and returns it as
+    contact_list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-lists-post-openapi.md
+- name: Eventbrite - Get Users Contact Lists
+  x-api-slug: usersidcontact-lists-get
+  description: |-
+    Returns a list of contact_list that the user owns as the key
+    contact_lists.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/eventbrite/usersidcontact-lists-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://europeana.api.gallery.streamdata.io

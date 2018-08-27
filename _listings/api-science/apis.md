@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Contacts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/apis.md
 specificationVersion: "0.14"
 apis:
@@ -78,6 +78,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/contactsid-json-patch-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/contactsid-json-patch-openapi.md
+- name: API Science - Get Contacts List
+  x-api-slug: apiversioncontacts-get
+  description: Returns a list of all contacts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
+  humanURL: http://apiscience.com
+  baseURL: https:///
+  tags: Monitoring, My API Stack, API LIfeyclessss, Stack Network, API Service Provider,
+    Profiles, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/apiversioncontacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/api-science/apiversioncontacts-get-openapi.md
 - name: API Science - Get Contacts List
   x-api-slug: apiversioncontacts-get
   description: Returns a list of all contacts.

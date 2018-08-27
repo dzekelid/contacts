@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-consta
 x-kinRank: "7"
 x-alexaRank: "1364"
 tags: Contacts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/constant-contact/apis.md
 specificationVersion: "0.14"
 apis:
@@ -152,6 +152,62 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/constant-contact/usernamecontactscontactid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/constant-contact/usernamecontactscontactid-put-openapi.md
+- name: Constant Contact - Update Contact
+  x-api-slug: usernamecontactscontactid-put
+  description: Update Contact
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-constant-contact.jpg
+  humanURL: http://blogs.constantcontact.com
+  baseURL: https://api.constantcontact.com//ws/customers/
+  tags: Social Media Marketing, Email Marketing, CRM, Federal Government, Federal
+    Government, Federal Government, Federal Government, Getting Started Example, SaaS,
+    Technology, API Provider, Surveys, Emails, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/constant-contact/usernamecontactscontactid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/constant-contact/usernamecontactscontactid-put-openapi.md
+- name: Constant Contact - Get Contact
+  x-api-slug: usernamecontactscontactid-get
+  description: Get Contact
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-constant-contact.jpg
+  humanURL: http://blogs.constantcontact.com
+  baseURL: https://api.constantcontact.com//ws/customers/
+  tags: Social Media Marketing, Email Marketing, CRM, Federal Government, Federal
+    Government, Federal Government, Federal Government, Getting Started Example, SaaS,
+    Technology, API Provider, Surveys, Emails, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/constant-contact/usernamecontactscontactid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/constant-contact/usernamecontactscontactid-get-openapi.md
+- name: Constant Contact - Opting-out Contact
+  x-api-slug: usernamecontactscontactid-delete
+  description: Opting-out Contact
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-constant-contact.jpg
+  humanURL: http://blogs.constantcontact.com
+  baseURL: https://api.constantcontact.com//ws/customers/
+  tags: Social Media Marketing, Email Marketing, CRM, Federal Government, Federal
+    Government, Federal Government, Federal Government, Getting Started Example, SaaS,
+    Technology, API Provider, Surveys, Emails, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/constant-contact/usernamecontactscontactid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/constant-contact/usernamecontactscontactid-delete-openapi.md
+- name: Constant Contact - Add Contact
+  x-api-slug: usernamecontacts-post
+  description: Add Contact
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-constant-contact.jpg
+  humanURL: http://blogs.constantcontact.com
+  baseURL: https://api.constantcontact.com//ws/customers/
+  tags: Social Media Marketing, Email Marketing, CRM, Federal Government, Federal
+    Government, Federal Government, Federal Government, Getting Started Example, SaaS,
+    Technology, API Provider, Surveys, Emails, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/constant-contact/usernamecontacts-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/constant-contact/usernamecontacts-post-openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/constantcontact/.net-sdk

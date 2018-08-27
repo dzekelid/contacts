@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1097-natio
 x-kinRank: "7"
 x-alexaRank: "31023"
 tags: Contacts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/national-renewable-energy-laboratory/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Transportation Laws and Incentives - Get the points of contact for a given
+    jurisdiction.
+  x-api-slug: v1pocs-output-format-get
+  description: Get the points of contact for a given jurisdiction..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1097-national-renewable-energy-laboratory.jpg
+  humanURL: http://nrel.gov
+  baseURL: https://developer.nrel.gov//api/transportation-incentives-laws
+  tags: SMS, Energy, Environment, Jobs, Energy, Enterprise, API Provider, Data Provider,
+    Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/national-renewable-energy-laboratory/v1pocs-output-format-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/national-renewable-energy-laboratory/v1pocs-output-format-get-openapi.md
 - name: Transportation Laws and Incentives - Get the points of contact for a given
     jurisdiction.
   x-api-slug: v1pocs-output-format-get

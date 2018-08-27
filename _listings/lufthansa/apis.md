@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-p
 x-kinRank: "7"
 x-alexaRank: "3886"
 tags: Contacts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/lufthansa/apis.md
 specificationVersion: "0.14"
 apis:
+- name: LH Partner - Baggage Trip and Contact
+  x-api-slug: baggagebaggagetripandcontactsearchid-get
+  description: Retrieve passenger trip, contact and baggage details. This service
+    is only accessible for LH privileged partners
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg
+  humanURL: http://lufthansa.com
+  baseURL: https://api.lufthansa.com//v1
+  tags: Airlines, API Provider, Profiles, General Data, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/lufthansa/baggagebaggagetripandcontactsearchid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contacts/master/_listings/lufthansa/baggagebaggagetripandcontactsearchid-get-openapi.md
 - name: LH Partner - Baggage Trip and Contact
   x-api-slug: baggagebaggagetripandcontactsearchid-get
   description: Retrieve passenger trip, contact and baggage details. This service
